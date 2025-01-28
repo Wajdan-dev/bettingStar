@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 2">
+  <!-- Stroke Path -->
+  <path d="M 0 0 S 8 3 16 0" fill="none" stroke="#2CD264" stroke-width="0.05" />
+  <!-- Filled Shape -->
+  <path d="M 0 0 S 8 3 16 0 V 2 H 0 Z" fill="#0A181A" />
+</svg>

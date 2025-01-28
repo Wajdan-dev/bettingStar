@@ -1,0 +1,435 @@
+@font-face {
+    font-family: 'Typo_Dodam';
+    src: url('../font/Typo_Dodam.ttf') format('ttf');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Typo_Dodam', sans-serif;
+}
+header{
+    background:  url('../img/gradient\ bg.png') #081417 center/cover no-repeat;
+
+}
+.header-overlay{
+    background: #08141741;
+    padding: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+    position: relative;
+}
+
+.header-img{
+    width: 100%;
+    max-width: 1060px;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+}
+.header-bottom{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.sect-1 {
+    background: linear-gradient(to right, #0d1c1c, #0d1c1d, #081818);
+
+}
+
+.sect-1-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sect-2-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sect-1-card {
+    max-width: 100%;
+    height: 419px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: black;
+    padding: 20px;
+}
+
+.sect-1-card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 7px 0 #9DFFBE;
+}
+
+.sect-1-card h1 {
+    color: white;
+    font-family: 'Typo_Dodam', sans-serif;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 97px;
+    align-items: center;
+}
+
+.sect-1-card button {
+    padding: 10px;
+    width: 100%;
+    height: 116px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Typo_Dodam', sans-serif;
+    background-color: #139441;
+
+
+    border: none;
+    box-shadow: 0px 3px 4px 0px #000000BF, 0px 4px 4px 0px #00000040, 0px -3px 4px 0px #00000054 inset;
+
+
+
+}
+
+.sect-1-card button img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.sect-1 p {
+    font-family: 'Typo_Dodam', sans-serif;
+
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 63px;
+    text-align: center;
+    padding: 10px 0x;
+    align-items: center;
+    color: white;
+}
+
+.sect-1 span {
+
+    background: linear-gradient(to right, #FFFFFF, #FFE031);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sect-2 {
+    background: linear-gradient(to right, #0c2a1e, #050b07, #152523);
+    text-align: center;
+}
+
+.sect-2-cards {
+
+    height: 275px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 5px 0 #9DFFBE;
+    margin-top: -3.5rem;
+    padding: 20px;
+}
+
+.sect-2-cards h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 58px;
+}
+
+
+.sect-2-cards button {
+
+    border: none;
+    background: #139441;
+    width: 100%;
+    height: 77px;
+    border-radius: 20px;
+}
+
+.sect-2-cards span {
+
+    background: linear-gradient(to right, #FFFFFF, #FFE031);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+}
+
+.sect-2 p {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 63px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-3 {
+    background-color: #081417;
+    margin-bottom: 0px;
+
+}
+
+.sect-3-card {
+    margin: 0 auto;
+    background-color: #050B07;
+    border-radius: 20px;
+    max-width: 100%;
+    box-shadow: 0 1px 5px 0 #9DFFBE;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sect-3-card h1 {
+    font-weight: 400;
+    font-size: 111px;
+    line-height: 123px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-3-card h2 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 123px;
+    text-align: center;
+    background: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sect-3-card p {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 74px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mobile-code {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-text {
+    position: absolute;
+    z-index: -1;
+}
+
+
+.mobile-p {
+
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: white;
+    font-family: 'Typo_Dodam', sans-serif;
+}
+
+
+
+.mobile-h1 {
+    font-weight: 400;
+    background-color: #081417;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 74px !important;
+    line-height: 83px;
+    box-shadow: 0 1px 4px 0 #9DFFBE;
+    font-family: 'Typo_Dodam', sans-serif;
+
+
+}
+
+
+.title {
+    font-family: 'Typo_Dodam';
+    font-size: 44.62px;
+    font-weight: 500;
+    line-height: 49.39px;
+    color: white;
+
+}
+
+.mobieCard {
+    background: #081417;
+    box-shadow: 0px 3.64px 11.89px 0px #13944142;
+    max-width: 743px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 33.84px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.mobileIMg {
+    position: absolute;
+    bottom: 40px;
+}
+
+.mobile {
+    padding: 100px 0px;
+}
+
+.mobiDec {
+    max-width: 743px;
+    width: 100%;
+    font-size: 30.31px !important;
+    font-weight: 700 !important;
+    line-height: 33.55px !important;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
+@media(max-width:776px) {
+    .sect-2-cards {
+        margin-top: auto;
+    }
+
+    .sect-3-card h1 {
+        font-weight: 400;
+        font-size: 94px;
+        line-height: 99px;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sect-3-card h2 {
+        font-weight: 700;
+        font-size: 67px;
+        line-height: 85px;
+        text-align: center;
+        background: linear-gradient(180deg, #15AA13 0%, #26FF9A 50%, #31B03D 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sect-3-card p {
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 38px;
+        line-height: 56px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sect-2-cards {
+        padding: 10px 15px;
+    }
+
+    .sect-2-cards span {
+        background: linear-gradient(to right, #FFFFFF, #FFE031);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 47px;
+    }
+
+    .sect-1-card h1 {
+        color: white;
+        font-family: 'Typo_Dodam', sans-serif;
+        font-weight: 700;
+        font-size: 63px;
+        line-height: 73px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .mobileIMg {
+        display: none;
+    }
+
+    .title {
+        font-family: 'Typo_Dodam';
+        font-size: 24.62px;
+        font-weight: 500;
+        line-height: 49.39px;
+        color: white;
+    }
+
+    .mobiDec {
+        font-size: 21.31px !important;
+        font-weight: 700 !important;
+        line-height: 33.55px !important;
+        margin-top: 22px;
+        margin-left: 0;
+
+    }
+
+    .mobile {
+        padding: 40px 0px;
+    }
+
+    .sect-3-card {
+        padding: 15px;
+    }
+}
+
+
+@media(max-width:446px){
+    .sect-1-card h1 {
+        font-size: 48px;
+        line-height: 63px;    }
+        .sect-1 p,.sect-2 p {
+            font-size: 32px;
+            line-height: 53px;
+        }
+        .sect-2-cards h1 {
+            font-weight: 400;
+            font-size: 44px;
+        }
+        .sect-3-card h2 {
+            font-size: 48px;
+            line-height: 63px;
+        }
+        
+        .sect-3-card p {
+           
+            font-size: 34px;
+            line-height: 54px;
+        }
+
+}
