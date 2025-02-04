@@ -1,6 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 2">
+  <defs>
+    <!-- Define the Linear Gradient -->
+    <linearGradient id="svgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1c1c" />
+      <stop offset="50%" stop-color="#0d1c1d" />
+      <stop offset="100%" stop-color="#081818" />
+    </linearGradient>
+  </defs>
+  
   <!-- Stroke Path -->
   <path d="M 0 0 S 8 3 16 0" fill="none" stroke="#2CD264" stroke-width="0.05" />
-  <!-- Filled Shape -->
-  <path d="M 0 0 S 8 3 16 0 V 2 H 0 Z" fill="#0A181A" />
+  
+  <!-- Filled Shape with Gradient -->
+  <path d="M 0 0 S 8 3 16 0 V 2 H 0 Z" fill="url(#svgGradient)" />
 </svg>

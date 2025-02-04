@@ -40,6 +40,7 @@ header{
     right: 0;
     bottom: 0;
 
+  
 }
 
 .sect-1 {
@@ -64,6 +65,8 @@ header{
     border-radius: 20px;
     background-color: black;
     padding: 20px;
+    margin-top: -4%;
+    
 }
 
 .sect-1-card {
@@ -306,17 +309,21 @@ header{
     padding: 100px 0px;
 }
 
+
 .mobiDec {
-    max-width: 743px;
+    /* max-width: 743px; */
     width: 100%;
     font-size: 30.31px !important;
     font-weight: 700 !important;
     line-height: 33.55px !important;
     margin-left: 20px;
     margin-top: 20px;
-
+    
 }
-
+.mobile-content{
+    max-width: 743px;
+    margin-inline: auto;
+}
 
 @media(max-width:776px) {
     .sect-2-cards {
