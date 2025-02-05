@@ -286,6 +286,10 @@ header{
     color: white;
 
 }
+.mobile-content a{
+    color: white;
+    text-decoration: none;
+}
 
 .mobieCard {
     background: #081417;
