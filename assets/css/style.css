@@ -322,9 +322,27 @@ header{
 }
 .mobile-content{
     max-width: 743px;
-    margin-inline: auto;
+}
+.mobile-content .mobiDec{
+    text-align: left;
 }
 
+@media(min-width:776px) {
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobileIMg{
+    position: static;
+    margin-right: -5rem;
+    z-index: 1000;
+
+}
+.mobieCard{
+    padding-left: 4rem;
+}
+}
 @media(max-width:776px) {
     .sect-2-cards {
         margin-top: auto;
