@@ -308,12 +308,19 @@ header{
 
 
 .mobileIMg {
-    position: absolute;
-    bottom: 40px;
+    /* position: absolute;
+    bottom: 40px; */
+    max-width: 50%;
+    display: inline-block;
+    z-index: 1000;
 }
 
 .mobile {
     padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -336,9 +343,8 @@ header{
 
 @media(min-width:776px) {
 .mobile{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    flex-direction: row;
 }
 .mobileIMg{
     position: static;
@@ -411,7 +417,7 @@ header{
     }
 
     .mobileIMg {
-        display: none;
+        /* display: none; */
     }
 
     .title {
